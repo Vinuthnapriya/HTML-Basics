@@ -1,0 +1,151 @@
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+
+p=paragraph
+h1=large heading
+body is an element that contain links, paragraphs,headings,images,tables,list
+<title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+
+
+Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+The <br> tag defines a line break, and is an empty element without a closing tag
+
+
+#structure of html
+<html>
+    <head>
+        <title>Page title</title>
+    </head>
+<body>
+      <h1>This is a heading</h1>
+      <p>This is a paragraph.</p>
+      <p>This is another paragraph.</p>
+</body>
+</html>
+
+The content inside the <body> section will be displayed in a browser. The content 
+inside the <title> element will be shown in the browser's title bar or in the page's tab.
+
+
+ Tim Berners-Lee is the inventer of HTML
+
+
+You can use either .htm or .html as file extension. There is no difference; it is up to you.
+
+
+All HTML documents must start with a document type declaration: <!DOCTYPE html>
+
+
+<!DOCTYPE html>
+-> it declares the type of the document.
+-> It must only appear once, at the top of the page (before any HTML tags).
+->  is not case sensitive.
+
+
+HTML links are defined with the <a> tag.
+The link's destination is specified in the href attribute. 
+
+An HTML element is defined by a start tag, some content, and an end tag
+elements are the tags like p, h1, img, a, br etc.
+
+HTML tags are not case sensitive: <P> means the same as <p>
+
+
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+1.href attribute:
+    The href attribute specifies the URL of the page the link goes to.
+    it defines the hyperlink.
+    <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+2.src attribute:
+    The src attribute specifies the path to the image to be displayed.
+    <img src="img_girl.jpg">
+
+3.width and height attribute:
+    the width and height attributes, which specify the width and height of the image (in pixels).
+    <img src="img_girl.jpg" width="500" height="600">
+
+4.alt attribute:
+    tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a 
+    slow connection, or an error in the src attribute, or if the user uses a screen reader.
+    <img src="img_girl.jpg" alt="Girl with a jacket">
+
+5.style attribute:
+    The style attribute is used to add styles to an element, such as color, font, size, and more.
+    <p style="color:red;">This is a red paragraph.</p>
+
+6.lang attribute:
+    You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define 
+the language of the HTML page, and the last two characters define the country.
+The following example specifies English as the language and United States as the country:
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+
+7.title attribute:
+    The title attribute defines some extra information about an element.
+    The value of the title attribute will be displayed as a tooltip when you mouse over the element.
+    <p title="I'm a tooltip">This is a paragraph.</p>
+
+
+
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+
+
+All HTML elements can have attributes
+->The href attribute of <a> specifies the URL of the page the link goes to
+->The src attribute of <img> specifies the path to the image to be displayed
+->The width and height attributes of <img> provide size information for images
+->The alt attribute of <img> provides an alternate text for an image
+->The style attribute is used to add styles to an element, such as color, font, size, and more
+->The lang attribute of the <html> tag declares the language of the Web page
+->The title attribute defines some extra information about an element
+
+
+
+Horizontal Rules:
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+
+
+In HTML, spaces and new lines are ignored
+
+
+
+The pre tag preserves both spaces and line breaks
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+
+
+
+
+<p>  	Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+
+
